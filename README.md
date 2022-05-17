@@ -53,7 +53,7 @@ The default ingress certificate should now be propogated in istio's ingress gate
 
 ### Add RHSSO into Service Mesh
 
-Make sure to add the _rhsso_ namespace in the mesh. You may verify that it's present in the _ServiceMeshMemberRoll_ resource -
+Make sure to add the _rhsso_ namespace into the mesh. You may verify that it's present in the _ServiceMeshMemberRoll_ resource -
 
 ```
 $ oc get smmr -n istio-system -o yaml
