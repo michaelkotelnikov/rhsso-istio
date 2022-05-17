@@ -1,4 +1,5 @@
 rhsso:
+  # The host name used for exposing RHSSO via the istio ingress gateway
   host: rhsso-rhsso-gateway-prod-525eca1d5089dbdc-istio-system.apps.cluster-jzbs4.jzbs4.sandbox1713.opentlc.com
   service: 
     port: 8080
