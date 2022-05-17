@@ -1,0 +1,7 @@
+rhsso:
+  host: rhsso-rhsso-gateway-prod-525eca1d5089dbdc-istio-system.apps.cluster-jzbs4.jzbs4.sandbox1713.opentlc.com
+  service: 
+    port: 8080
+    name: http-keycloak
+  gateway: 
+    name: rhsso-gateway
